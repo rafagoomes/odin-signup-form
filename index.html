@@ -11,26 +11,53 @@
     <div class="container">
         <div class="left">
             <div class="logo">
-                <img src="imgs/odin-lined.png" alt="Odin Project logo">
+                <img src="imgs/groot-icon.png" alt="Groot Icon">
                 <p>Groot</p>
             </div>
             <img src="imgs/groot.jpg" alt="Groot Image">
         </div>
         <div class="right">
-            <form action="">
-                <label for="first_name">FIRST NAME</label>
-                <input type="text" name="first_name" id="">
-                <label for="last_name">LAST NAME</label>
-                <input type="text" name="last_name" id="">
-                <label for="email">EMAIL</label>
-                <input type="text" name="email" id="">
-                <label for="phone_number">PHONE NUMBER</label>
-                <input type="text" name="phone_number" id="">
-                <label for="password">PASSWORD</label>
-                <input type="text" name="password" id="">
-                <label for="confirm_password">CONFIRM PASSWORD</label>
-                <input type="text" name="confirm_password" id="">
-            </form>
+            <div class="top-text">
+                <text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, non assumenda fugit corporis earum natus voluptates laboriosam.</text><br>
+                <text>Sign up <i>now</i> to get started.</text><br>
+                <br>
+                <text>You <i>know</i> you want to.</text>
+            </div>
+            <div class="input">
+                <text>Let's do this!</text>
+                <form action="#" id="myForm">
+                    <div class="inputs">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" id="last_name" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="email">EMAIL</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="text" name="phone_number" id="phone_number" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="password">PASSWORD</label>
+                        <input type="text" name="password" id="password" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="text" name="confirm_password" id="confirm_password" required>
+                    </div>
+                </form>
+            </div>
+            <div class="right-button">
+                <input type="submit" value="Create Account" form="myForm">
+                <br><text>Already have an account? <a href="#">Log in</a></text>
+            </div>
+            
+            
         </div>
     </div>
     
